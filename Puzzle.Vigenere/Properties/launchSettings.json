@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Puzzle.Vigenere": {
+      "commandName": "Project",
+      "commandLineArgs": "decrypt somekey encrypted.txt out.txt "
+    }
+  }
+}
