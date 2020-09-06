@@ -4,13 +4,13 @@ namespace Puzzle.Common
 {
     public class SimpleConsoleLogger : ISimpleLogger
     {
-        public void Info(string message)
+        void ISimpleLogger.Info(string message)
         {
             Console.WriteLine(message);
         }
 
 
-        public void Error(Exception e, string message)
+        void ISimpleLogger.Error(Exception e, string message)
         {
 	        if (e == null)
 	        {
